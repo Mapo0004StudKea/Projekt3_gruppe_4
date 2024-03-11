@@ -1,3 +1,23 @@
 .overskrift {
     display: flex;
+    justify-content: center;
+    font-family: "Times New Roman", serif;
+    font-size: 200%;
+    background-color: burlywood;
+}
+
+.page-container {
+    justify-content: center;
+background-color: brown;
+}
+
+.block {
+    justify-content: center;
+}
+
+.pragraf {
+    display: flex;
+    justify-content: center;
+    color: darkolivegreen;
+
 }
