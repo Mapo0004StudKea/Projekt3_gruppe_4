@@ -8,11 +8,13 @@
 
 .page-container {
     justify-content: center;
-background-color: brown;
+    background-color: brown;
+
 }
 
 .block {
     justify-content: center;
+
 }
 
 .pragraf {
@@ -21,24 +23,23 @@ background-color: brown;
     color: darkolivegreen;
 }
 
-{
-    margin: 0;
-    padding: 0;
-    font-family: "Times New Roman", serif;
-    box-sizing: border-box;
-}
 .flex-container {
-    width: 100%;
-    height:auto;
+background-image: url('../Images/madspild.jpg');/* Set the background image */
+background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height of the body to the height of the viewport */
     display: flex;
+    align-items: center;
     justify-content: center;
-
+    position: relative; /* Ensure proper positioning of text */
+    color: white; /* Set default text color */
 
 }
+
 .flex-box {
     width: 400px;
-    height:200px;
-    background: linear-gradient(darkgreen,yellowgreen);
+    height: 200px;
+    background: linear-gradient(darkgreen, yellowgreen);
     color: wheat;
     font-size: 15px;
     text-align: center;
@@ -47,3 +48,8 @@ background-color: brown;
     margin: 10px;
 
 }
+
+
+
+
+
