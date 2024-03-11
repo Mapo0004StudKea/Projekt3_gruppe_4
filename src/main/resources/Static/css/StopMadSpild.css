@@ -28,8 +28,7 @@
 
 .block4{
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    align-content: center;
 }
 
 .block-cointer{
