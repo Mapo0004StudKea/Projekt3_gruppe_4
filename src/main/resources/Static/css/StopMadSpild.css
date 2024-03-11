@@ -1,12 +1,19 @@
 .block{
     display: flex;
-    p1{
-        font-size: 20px;
-    }
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+p2{
+    font-size: 20px;
+    margin: 25px;
 }
 
 .block1{
     display: flex;
+    justify-content: space-between;
+    justify-items: right;
+    background-color: rgb(255, 237, 218);
 }
 
 .block2{
@@ -28,14 +35,14 @@
 
 .block4{
     display: flex;
-    align-content: center;
+    align-content: flex-start;
+    margin: 1px;
 }
 
-.block-cointer{
+.block-container{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    background-color: burlywood;
     width: 175vh;
     height: 30px;
     margin: 4px;
@@ -44,22 +51,49 @@
     }
 }
 
-.block-cointer1{
+.block-container1{
     display: flex;
     width: 210vh;
     height: 30px;
 }
 
-.block-cointer2{
+.block-container2{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.page-cointer{
+.page-container{
     display: flex;
     width: 210vh;
     height: 60vh;
     background-color: ghostwhite;
     margin: 4px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 237, 218);
+}
+
+.nav-links {
+    display: flex;
+}
+.nav-links2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.nav-links a {
+    color: white; /* Choose your text color */
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
 }
