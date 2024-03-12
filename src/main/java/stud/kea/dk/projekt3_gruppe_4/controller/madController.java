@@ -10,5 +10,5 @@ public class madController {
     public String StopMadSpild(){
         return "stopMadspild";
     }
-
+    //hej med dig
 }
