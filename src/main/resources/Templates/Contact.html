@@ -17,8 +17,8 @@
             var id = tr[i].getElementsByTagName("td")[0];
             var firstName = tr[i].getElementsByTagName("td")[1];
             var lastName = tr[i].getElementsByTagName("td")[2];
-            var studentMail = tr[i].getElementsByTagName("td")[2];
-            var githubmail = tr[i].getElementsByTagName("td")[2];
+            var studentMail = tr[i].getElementsByTagName("td")[3];
+            var githubmail = tr[i].getElementsByTagName("td")[4];
 
             txtValue = (id ? id.textContent || id.innerText : "")
                 + (firstName ? firstName.textContent || firstName.innerText : "")
@@ -46,8 +46,6 @@
         <p2><a href="/madspild">Madspild</a></p2>
         <p2><a href="/about">Om os</a></p2>
         <p2><a href="/kontakt">Kontakt</a></p2>
-        <label for="searchBar">Search:</label>
-        <input type="text" id="searchBar" oninput="searchList()" placeholder="Type to search">
     </div>
 </div>
 <div class="block1">
@@ -56,9 +54,14 @@
 <div class="block1">
     <header>
         <h1>Kontakt</h1>
+
     </header>
 </div>
 <div class="container">
+    <div>
+        <label for="searchBar">Search:</label>
+        <input type="text" id="searchBar" oninput="searchList()" placeholder="Type to search">
+    </div>
     <table>
         <thead>
         <tr>

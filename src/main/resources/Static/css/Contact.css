@@ -132,6 +132,7 @@ h1, h2 {
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 20px;
 }
 
 th{
@@ -172,5 +173,5 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
-    color: white;
+    color: black;
 }
