@@ -1,3 +1,51 @@
+
+p2{
+    font-size: 20px;
+    margin: 25px;
+}
+
+.block1{
+    display: flex;
+    justify-content: space-between;
+    justify-items: right;
+    background-color: rgb(255, 237, 218);
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 237, 218);
+}
+
+.nav-links {
+    display: flex;
+}
+.nav-links2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.nav-links a {
+    color: white; /* Choose your text color */
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: rgb(255, 237, 218);
+    padding: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: black;
+}
+
 .overskrift {
     display: flex;
     justify-content: center;
@@ -24,8 +72,8 @@
 }
 
 .flex-container {
-background-image: url('../image/madspild.jpg');/* Set the background image */
-background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-image: url('../image/madspild.jpg');/* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
     background-position: center; /* Center the background image */
     height: 100vh; /* Set the height of the body to the height of the viewport */
     display: flex;
@@ -47,33 +95,3 @@ background-size: cover; /* Ensure the background image covers the entire viewpor
     border-radius: 30px;
     margin: 10px;
 }
-.block1{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(255, 237, 218);
-}
-
-.navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    background-color: rgb(255, 237, 218);
-}
-
-
-.nav-links2 {
-    display: flex;
-    align-items: center;
-
-
-
-}
-
-
-
-
-
-
-
-

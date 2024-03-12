@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class madController {
 
-    @GetMapping("/hej")
+    @GetMapping("/madspild")
     public String stop(){
         return "Madspild";
     }
