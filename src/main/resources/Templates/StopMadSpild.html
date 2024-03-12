@@ -13,18 +13,19 @@
         </a>
     </div>
     <div class="nav-links2">
-        <p2><a href="/">Forside</a></p2>
-        <form action="Madspild.html" th:action="@{/redirect}" method="post">
-            <select name="redirectPage" class="block-container3">
-        <option value="Forbruger"> Forbruger</option>
-        <option value="Virksomhed"> Virksomhed</option>
-        <option value= "Madspild"> Organisation </option>
-
-        </select>
-            <input type="submit" value="Go">
-        </form>
-        <p2><a href="/about">Om os</a></p2>
-        <p2><a href="/kontakt">Kontakt</a></p2>
+        <p2><a class="source-link" href="/">Forside</a></p2>
+        <div class="dropdown">
+            <div class="block-container3">
+                <span> <p2> Madspild</p2></span>
+                <div class="dropdown-content">
+                    <a href="Forbruger">Forbruger</a>
+                    <a href="Virksomhed">Virksomhed</a>
+                    <a href="Madspild">Organisation</a>
+                </div>
+            </div>
+        </div>
+        <p2><a class="source-link" href="/about">Om os</a></p2>
+        <p2><a class="source-link" href="/kontakt">Kontakt</a></p2>
     </div>
 </div>
 <!--
