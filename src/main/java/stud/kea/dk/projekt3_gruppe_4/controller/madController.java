@@ -16,5 +16,8 @@ public class madController {
     public String StopMadSpild(){
         return "stopMadspild";
     }
-    //hej med dig
+    @GetMapping("/about")
+    public String about() {
+        return "About";
+    }
 }
