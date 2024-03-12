@@ -46,8 +46,32 @@ background-size: cover; /* Ensure the background image covers the entire viewpor
     line-height: 25px;
     border-radius: 30px;
     margin: 10px;
+}
+.block1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 237, 218);
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 237, 218);
+}
+
+
+.nav-links2 {
+    display: flex;
+    align-items: center;
+
+
 
 }
+
+
+
 
 
 
