@@ -5,7 +5,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class madController {
 
-    @GetMapping("/")
+    @GetMapping("/hej")
     public String stop(){
         return "Madspild";
     }
