@@ -105,3 +105,7 @@ header {
     font-size: 35px;
     color: black;
 }
+.source-link {
+    color: black; /* Ændrer farven på linket til sort */
+    text-decoration: none; /* Fjerner understregning på linket */
+}
