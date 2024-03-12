@@ -38,7 +38,7 @@ background-size: cover; /* Ensure the background image covers the entire viewpor
 
 .flex-box {
     width: 400px;
-    height: 200px;
+    height: 300px;
     background: linear-gradient(darkgreen, yellowgreen);
     color: wheat;
     font-size: 15px;
