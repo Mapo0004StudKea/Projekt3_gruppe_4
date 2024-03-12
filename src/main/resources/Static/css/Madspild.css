@@ -1,0 +1,55 @@
+.overskrift {
+    display: flex;
+    justify-content: center;
+    font-family: "Times New Roman", serif;
+    font-size: 200%;
+    background-color: burlywood;
+}
+
+.page-container {
+    justify-content: center;
+    background-color: brown;
+
+}
+
+.block {
+    justify-content: center;
+
+}
+
+.pragraf {
+    display: flex;
+    justify-content: center;
+    color: darkolivegreen;
+}
+
+.flex-container {
+background-image: url('../Images/madspild.jpg');/* Set the background image */
+background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set the height of the body to the height of the viewport */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Ensure proper positioning of text */
+    color: white; /* Set default text color */
+
+}
+
+.flex-box {
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(darkgreen, yellowgreen);
+    color: wheat;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+
+
+
+
