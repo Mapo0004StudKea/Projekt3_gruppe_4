@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact page</title>
+    <link rel = "stylesheet" href="../Static/css/Contact.css" th:href ="@{css/Contact.css}">
+</head>
+<script>
+    function searchList() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("searchBar");
+        filter = input.value.toUpperCase();
+        table = document.querySelector(".container table");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 0; i < tr.length; i++) {
+            var id = tr[i].getElementsByTagName("td")[0];
+            var firstName = tr[i].getElementsByTagName("td")[1];
+            var lastName = tr[i].getElementsByTagName("td")[2];
+            var studentMail = tr[i].getElementsByTagName("td")[2];
+            var githubmail = tr[i].getElementsByTagName("td")[2];
+
+            txtValue = (id ? id.textContent || id.innerText : "")
+                + (firstName ? firstName.textContent || firstName.innerText : "")
+                + (lastName ? lastName.textContent || lastName.innerText : "");
+                + (studentMail ? studentMail.textContent || studentMail.innerText : "");
+                + (githubmail ? githubmail.textContent || githubmail.innerText : "");
+
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }
+    }
+</script>
+<body>
+<div class="block1">
+    <div class="navbar">
+        <a href="/">
+            <img src="../Static/image/KampenModMadspild.PNG" th:src="@{image/KampenModMadspild.PNG}" alt="Your Logo">
+        </a>
+    </div>
+    <div class="nav-links2">
+        <p2><a href="/">Forside</a></p2>
+        <p2><a href="/madspild">Madspild</a></p2>
+        <p2><a href="/about">Om os</a></p2>
+        <p2><a href="/kontakt">Kontakt</a></p2>
+        <label for="searchBar">Search:</label>
+        <input type="text" id="searchBar" oninput="searchList()" placeholder="Type to search">
+    </div>
+</div>
+<div class="block1">
+    <img src="../Static/image/burgerMan.png" th:src="@{image/burgerMan.png}" width="100%" height="350px" alt="">
+</div>
+<div class="block1">
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+</div>
+<div class="container">
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Fornavn</th>
+            <th>Efternavn</th>
+            <th>Student mail</th>
+            <th>Github mail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="contact : ${contactlist}">
+            <td th:text="${contact.id}">1</td>
+            <td th:text="${contact.firstName}">Test navn</td>
+            <td th:text="${contact.lastName}">Test navn</td>
+            <td th:text="${contact.studentMail}">test mail</td>
+            <td th:text="${contact.githubmail}">test mail</td>
+        </tr>
+        </tbody>
+    </table>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+</body>
+</html>
