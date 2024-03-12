@@ -12,8 +12,8 @@ p2{
 .block1{
     display: flex;
     justify-content: space-between;
-    justify-items: right;
     background-color: rgb(255, 237, 218);
+    align-items: center;
 }
 
 .block2{
@@ -26,9 +26,10 @@ p2{
 
 .block3{
     display: flex;
+    text-align: center;
     width: 20vh;
     height: 20vh;
-    background-color: gray;
+    background-color: rosybrown;
     justify-items: center;
     margin: 100px;
 }
@@ -38,6 +39,17 @@ p2{
     align-content: flex-start;
     margin: 1px;
 }
+
+.circle {
+    display: flex;
+    text-align: center;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    border-radius: 20%; /* Gør elementet rundt ved at sætte border-radius til halvdelen af elementets bredde/højde */
+}
+
 
 .block-container{
     display: flex;
@@ -61,6 +73,7 @@ p2{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-content: center;
 }
 
 .page-container{
@@ -96,4 +109,9 @@ p2{
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+.source-link {
+    color: black; /* Ændrer farven på linket til sort */
+    text-decoration: none; /* Fjerner understregning på linket */
 }
