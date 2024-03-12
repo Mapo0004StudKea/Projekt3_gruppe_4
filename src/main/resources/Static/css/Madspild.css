@@ -15,7 +15,7 @@ p2{
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     background-color: rgb(255, 237, 218);
 }
 
@@ -47,13 +47,15 @@ header {
 }
 
 .overskrift {
-    display: flex;
-    justify-content: center;
     font-family: "Times New Roman", serif;
+    color: black;
     font-size: 200%;
-    background-color: burlywood;
+    position: absolute; /* Position the header absolutely */
+    top: 150px; /* Adjust the top position as needed */
+    left: 50%; /* Align the header to the center */
+    transform: translateX(-50%); /* Center the header horizontally */
+    z-index: 1; /* Ensure the header is above the flexboxes */
 }
-
 .page-container {
     justify-content: center;
     background-color: brown;
@@ -75,9 +77,9 @@ header {
     background-image: url('../image/madspild.jpg');/* Set the background image */
     background-size: cover; /* Ensure the background image covers the entire viewport */
     background-position: center; /* Center the background image */
+    align-items: center;
     height: 100vh; /* Set the height of the body to the height of the viewport */
     display: flex;
-    align-items: center;
     justify-content: center;
     position: relative; /* Ensure proper positioning of text */
     color: white; /* Set default text color */
