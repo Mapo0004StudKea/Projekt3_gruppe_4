@@ -45,8 +45,8 @@ p2{
     justify-content: center;
 }
 .overlay p {
-    font-family: Arial, sans-serif; /* Ændrer skrifttypen til Arial */
-    font-size: 25px; /* Ændrer skriftstørrelsen til 16 pixels */
+    font-family: Arial, sans-serif;
+    font-size: 25px;
     margin: 50px;
     text-align: center;
 }
@@ -61,7 +61,7 @@ p2{
     width: 100px;
     height: 100px;
     background-color: rosybrown;
-    border-radius: 20%; /* Gør elementet rundt ved at sætte border-radius til halvdelen af elementets bredde/højde */
+    border-radius: 20%;
 }
 
 

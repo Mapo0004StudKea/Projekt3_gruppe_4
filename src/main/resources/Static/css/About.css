@@ -89,7 +89,7 @@ p2{
     margin: 25px;
 }
 .nav-links a {
-    color: white; /* Choose your text color */
+    color: white;
     text-decoration: none;
     padding: 0 15px;
 }
@@ -106,8 +106,8 @@ header {
     color: black;
 }
 .source-link {
-    color: black; /* Ændrer farven på linket til sort */
-    text-decoration: none; /* Fjerner understregning på linket */
+    color: black;
+    text-decoration: none;
 }
 
 .container {
