@@ -1,16 +1,8 @@
 
 p2{
-    font-size: 20px;
+    font-size: 30px;
     margin: 25px;
 }
-
-.block1{
-    display: flex;
-    justify-content: space-between;
-    justify-items: right;
-    background-color: rgb(255, 237, 218);
-}
-
 .navbar {
     display: flex;
     justify-content: left;
@@ -42,7 +34,7 @@ header {
     background-color: rgb(255, 237, 218);
     padding: 30px;
     text-align: left;
-    font-size: 35px;
+    font-size: 40px;
     color: black;
 }
 
@@ -51,7 +43,7 @@ header {
     color: black;
     font-size: 200%;
     position: absolute; /* Position the header absolutely */
-    top: 150px; /* Adjust the top position as needed */
+    top: 20%; /* Adjust the top position as needed */
     left: 50%; /* Align the header to the center */
     transform: translateX(-50%); /* Center the header horizontally */
     z-index: 1; /* Ensure the header is above the flexboxes */
