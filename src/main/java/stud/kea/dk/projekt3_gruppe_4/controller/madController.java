@@ -24,6 +24,16 @@ public class madController {
         return "redirect:/" + redirectPage;
     }
 
+    @GetMapping("/Forbruger")
+    public String forbruger() {
+        return "Forbruger";
+    }
+
+    @GetMapping("Virksomhed")
+    public String virksomhed() {
+        return "Virksomhed";
+    }
+
     @GetMapping("/about")
     public String about() {
         return "About";
