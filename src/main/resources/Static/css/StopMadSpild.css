@@ -40,6 +40,20 @@ p2{
     margin: 1px;
 }
 
+.block5 {
+    display: flex;
+    justify-content: center;
+}
+.overlay p {
+    font-family: Arial, sans-serif; /* Ændrer skrifttypen til Arial */
+    font-size: 25px; /* Ændrer skriftstørrelsen til 16 pixels */
+    margin: 50px;
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+}
+
 .circle {
     display: flex;
     text-align: center;
