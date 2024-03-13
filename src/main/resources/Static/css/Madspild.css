@@ -3,6 +3,14 @@ p2{
     font-size: 30px;
     margin: 25px;
 }
+
+.block1{
+    display: flex;
+    justify-content: space-between;
+    justify-items: right;
+    background-color: rgb(255, 237, 218);
+}
+
 .navbar {
     display: flex;
     justify-content: left;
@@ -34,7 +42,7 @@ header {
     background-color: rgb(255, 237, 218);
     padding: 30px;
     text-align: left;
-    font-size: 40px;
+    font-size: 25px;
     color: black;
 }
 

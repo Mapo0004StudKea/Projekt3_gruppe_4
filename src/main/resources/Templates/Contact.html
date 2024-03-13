@@ -5,6 +5,9 @@
     <title>Contact page</title>
     <link rel = "stylesheet" href="../Static/css/Contact.css" th:href ="@{css/Contact.css}">
     <link rel = "stylesheet" href="../Static/css/StopMadSpild.css" th:href ="@{css/StopMadSpild.css}">
+    <!--
+
+    -->
 </head>
 </head>
 <script>
@@ -65,37 +68,29 @@
 <div class="block1">
     <header>
         <h1>Kontakt</h1>
-
-    </header>
-</div>
-<div class="container">
-    <div>
         <label for="searchBar">Search:</label>
         <input type="text" id="searchBar" oninput="searchList()" placeholder="Type to search">
-    </div>
-    <table>
-        <thead>
-        <tr>
-            <th>ID</th>
-            <th>Fornavn</th>
-            <th>Efternavn</th>
-            <th>Student mail</th>
-            <th>Github mail</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr th:each="contact : ${contactlist}">
-            <td th:text="${contact.id}">1</td>
-            <td th:text="${contact.firstName}">Test navn</td>
-            <td th:text="${contact.lastName}">Test navn</td>
-            <td th:text="${contact.studentMail}">test mail</td>
-            <td th:text="${contact.githubmail}">test mail</td>
-        </tr>
-        </tbody>
-    </table>
-    <footer>
-        <p></p>
-    </footer>
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Fornavn</th>
+                <th>Efternavn</th>
+                <th>Student mail</th>
+                <th>Github mail</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="contact : ${contactlist}">
+                <td th:text="${contact.id}">1</td>
+                <td th:text="${contact.firstName}">Test navn</td>
+                <td th:text="${contact.lastName}">Test navn</td>
+                <td th:text="${contact.studentMail}">test mail</td>
+                <td th:text="${contact.githubmail}">test mail</td>
+            </tr>
+            </tbody>
+        </table>
+    </header>
 </div>
 </body>
 </html>

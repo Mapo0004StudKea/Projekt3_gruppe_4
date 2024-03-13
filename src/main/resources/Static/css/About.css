@@ -102,10 +102,15 @@ header {
     background-color: rgb(255, 237, 218);
     padding: 30px;
     text-align: left;
-    font-size: 35px;
+    font-size: 25px;
     color: black;
 }
 .source-link {
     color: black; /* Ændrer farven på linket til sort */
     text-decoration: none; /* Fjerner understregning på linket */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
