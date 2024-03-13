@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Organisationer</title>
     <link rel = "stylesheet" href="../Static/css/Madspild.css" th:href ="@{css/Madspild.css}">
-
+    <link rel = "stylesheet" href="../Static/css/StopMadSpild.css" th:href ="@{css/StopMadSpild.css}">
+</head>
 </head>
 <body>
 <div class="block1">
@@ -15,10 +16,20 @@
     </div>
     <div class="nav-links2">
         <p2><a class="source-link" href="/">Forside</a></p2>
-        <p2><a class="source-link" href="/madspild">Madspild</a></p2>
+        <div class="dropdown">
+            <div class="block-container3">
+                <span> <p2> Madspild</p2></span>
+                <div class="dropdown-content">
+                    <a href="Forbruger">Forbruger</a>
+                    <a href="Virksomhed">Virksomhed</a>
+                    <a href="Madspild">Organisation</a>
+                </div>
+            </div>
+        </div>
         <p2><a class="source-link" href="/about">Om os</a></p2>
         <p2><a class="source-link" href="/kontakt">Kontakt</a></p2>
     </div>
+</div>
     <h2 class ="overskrift">Information om madspild for forbrugeren</h2>
 </div>
 
