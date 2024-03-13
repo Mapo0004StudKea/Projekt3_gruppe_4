@@ -29,10 +29,12 @@ public class madController {
         return "Forbruger";
     }
 
-    @GetMapping("Virksomhed")
+    @GetMapping("/Virksomhed")
     public String virksomhed() {
         return "Virksomhed";
     }
+    @GetMapping("/Organisationer")
+    public String organisationer(){return "Organisationer";}
 
     @GetMapping("/about")
     public String about() {
