@@ -48,10 +48,12 @@ header {
 
 .overskrift {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Times New Roman", serif;
     color: black;
-    font-size: 200%;
-    position: absolute; /* Position the header absolutely */
+    font-size: 2em;
+    position: fixed; /* Position the header absolutely */
     top: 20vh; /* Adjust the top position as needed */
     left: 50%; /* Align the header to the center */
     transform: translateX(-50%); /* Center the header horizontally */
