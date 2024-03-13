@@ -11,9 +11,9 @@ p2{
 
 .block1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-items: right;
     background-color: rgb(255, 237, 218);
-    align-items: center;
 }
 
 .block2{

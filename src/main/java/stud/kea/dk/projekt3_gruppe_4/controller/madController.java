@@ -16,7 +16,7 @@ public class madController {
 
     @GetMapping("/")
     public String StopMadSpild(){
-        return "stopMadspild";
+        return "StopMadSpild";
     }
     @PostMapping("/redirect")
 
