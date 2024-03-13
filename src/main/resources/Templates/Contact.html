@@ -9,21 +9,20 @@
 
     -->
 </head>
-</head>
 <script>
     function searchList() {
-        var input, filter, table, tr, td, i, txtValue;
+        let input, filter, table, tr, td, i, txtValue;
         input = document.getElementById("searchBar");
         filter = input.value.toUpperCase();
         table = document.querySelector(".block1 table");
         tr = table.getElementsByTagName("tr");
 
         for (i = 0; i < tr.length; i++) {
-            var id = tr[i].getElementsByTagName("td")[0];
-            var firstName = tr[i].getElementsByTagName("td")[1];
-            var lastName = tr[i].getElementsByTagName("td")[2];
-            var studentMail = tr[i].getElementsByTagName("td")[3];
-            var githubmail = tr[i].getElementsByTagName("td")[4];
+            let id = tr[i].getElementsByTagName("td")[0];
+            let firstName = tr[i].getElementsByTagName("td")[1];
+            let lastName = tr[i].getElementsByTagName("td")[2];
+            let studentMail = tr[i].getElementsByTagName("td")[3];
+            let githubmail = tr[i].getElementsByTagName("td")[4];
 
             txtValue = (id ? id.textContent || id.innerText : "")
                 + (firstName ? firstName.textContent || firstName.innerText : "")
