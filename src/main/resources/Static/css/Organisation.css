@@ -1,0 +1,12 @@
+.flex-container-organisation {
+    background-image: url('../image/Organisation.webp');/* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    align-items: center;
+    height: 100vh; /* Set the height of the body to the height of the viewport */
+    display: flex;
+    justify-content: center;
+    position: relative; /* Ensure proper positioning of text */
+    color: white; /* Set default text color */
+
+}
