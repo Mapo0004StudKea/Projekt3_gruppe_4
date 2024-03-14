@@ -52,6 +52,10 @@ p2{
 }
 .overlay {
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    margin: 20px;
+    border-radius: 50%;
 }
 
 .circle {
