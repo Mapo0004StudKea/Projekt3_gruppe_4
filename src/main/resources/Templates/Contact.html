@@ -24,11 +24,11 @@
             let studentMail = tr[i].getElementsByTagName("td")[3];
             let githubmail = tr[i].getElementsByTagName("td")[4];
 
-            txtValue = (id ? id.textContent || id.innerText : "")
-                + (firstName ? firstName.textContent || firstName.innerText : "")
-                + (lastName ? lastName.textContent || lastName.innerText : "");
-                + (studentMail ? studentMail.textContent || studentMail.innerText : "");
-                + (githubmail ? githubmail.textContent || githubmail.innerText : "");
+            txtValue = (id ? id.textContent || id.innerText : "") +
+                (firstName ? firstName.textContent || firstName.innerText : "") +
+                (lastName ? lastName.textContent || lastName.innerText : "") +
+                (studentMail ? studentMail.textContent || studentMail.innerText : "") +
+                (githubmail ? githubmail.textContent || githubmail.innerText : "");
 
             if (txtValue.toUpperCase().indexOf(filter) > -1) {
                 tr[i].style.display = "";
